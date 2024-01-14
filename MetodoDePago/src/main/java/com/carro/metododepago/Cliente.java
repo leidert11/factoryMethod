@@ -1,23 +1,23 @@
 package com.carro.metododepago;
 
 public class Cliente  {
-    private IFormaPago FormaPago ;
+    private IFormaPago formaPago ;
 
     public Cliente(IFormaPago FormaPago) {
-        this.FormaPago = FormaPago;
+        this.formaPago = FormaPago;
     }
     
     public String comprar ( double monto){
-        String mensaje = FormaPago.pagar(monto);
+        String mensaje = formaPago.pagar(monto);
         return mensaje;
     }
 
     public IFormaPago getFormaPago() {
-        return FormaPago;
+        return formaPago;
     }
 
     public void setFormaPago(IFormaPago FormaPago) {
-        this.FormaPago = FormaPago;
+        this.formaPago = FormaPago;
     }
     
 }

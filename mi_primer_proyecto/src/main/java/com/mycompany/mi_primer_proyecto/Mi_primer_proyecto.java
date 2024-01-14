@@ -10,8 +10,6 @@ package com.mycompany.mi_primer_proyecto;
  */
 public class Mi_primer_proyecto {
 
-        public void Mi_primer_proyecto {
-    }
     
     public static void main(String[] args) {
         System.out.println("Hello World!");
